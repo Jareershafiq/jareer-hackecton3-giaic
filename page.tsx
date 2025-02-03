@@ -1,13 +1,15 @@
+import HeroSection from "@/components/hero";
+import Navbar from "@/components/Navbar";
 import React from "react";
-import Header from "./header";
-import  Navbar  from '@/components/Nav2';
 
 function page() {
   return (
-    <div>
-        <Navbar/>
-      <Header />
-    </div>
+    <>
+      <Navbar />
+      <div className="mx-10">
+        <HeroSection />
+      </div>
+    </>
   );
 }
 

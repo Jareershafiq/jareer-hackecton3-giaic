@@ -4,7 +4,7 @@ import Link from "next/link";
 const MenuSection = () => {
   return (
     <section
-      className="relative w-full h-[30vh] sm:h-[40vh] lg:h-[50vh] mt-10 bg-black"
+      className="relative w-full h-[30vh] mt-10 bg-black"
       aria-label="Menu Section"
     >
       {/* Background Image */}
@@ -21,19 +21,14 @@ const MenuSection = () => {
       </div>
 
       {/* Overlay Content */}
-      <div className="relative z-10 flex flex-col items-center justify-center h-full text-center bg-black bg-opacity-50 text-white px-4">
-        <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4">
-          Contact
-        </h2>
-        <nav
-          className="text-base sm:text-lg lg:text-xl"
-          aria-label="Breadcrumb navigation"
-        >
+      <div className="relative z-10 flex flex-col items-center justify-center h-full text-center bg-black bg-opacity-50 text-white">
+        <h2 className="text-2xl sm:text-3xl font-bold mb-4">Sign Up</h2>
+        <nav className="text-lg sm:text-xl" aria-label="Breadcrumb navigation">
           <Link href="/" passHref>
             <span className="text-orange-500 hover:underline">Home</span>
           </Link>
           <span className="mx-2">&gt;</span>
-          <span>Contact</span>
+          <span>Sign Up</span>
         </nav>
       </div>
     </section>
