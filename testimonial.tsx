@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const TestimonialSection = () => {
   return (
-    <section className="bg-white text-black py-12">
+    <section className="bg-black text-white py-12">
       <div className="container mx-auto text-center">
         {/* Align h2 and h1 to the left but keep everything centered in the section */}
         <div className="text-left mx-32 mb-8">
